@@ -1,8 +1,8 @@
 namespace MauiAppFlix.Categorias;
 
-public partial class Aventura : ContentPage
+public partial class Drama : ContentPage
 {
-	public Aventura()
+	public Drama()
 	{
 		InitializeComponent();
 	}
