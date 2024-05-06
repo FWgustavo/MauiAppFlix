@@ -2,22 +2,75 @@
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public partial class MainPage : ContentPage
         {
-            InitializeComponent();
-        }
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
+            int count = 0;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            public MainPage()
+            {
+                InitializeComponent();
+            }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            private void aventura_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void comedia_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void drama_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void terror_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void ficcaoc_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void suspense_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void infantil_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void animacao_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void documentario_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void guerra_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void nacional_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
+            private void romance_Clicked(object sender, EventArgs e)
+            {
+
+            }
         }
+
 
     }
-
-}

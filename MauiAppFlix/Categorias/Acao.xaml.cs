@@ -6,4 +6,19 @@ public partial class Acao : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnFuriosos_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnMacaco_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnEspiao_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
