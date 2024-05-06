@@ -47,13 +47,33 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AndroidResource Remove="Filmes\**" />
+	  <Compile Remove="Filmes\**" />
+	  <EmbeddedResource Remove="Filmes\**" />
+	  <MauiCss Remove="Filmes\**" />
+	  <MauiXaml Remove="Filmes\**" />
+	  <None Remove="Filmes\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\atesorte.jpg" />
+	  <None Remove="Resources\Images\coraline.jpg" />
+	  <None Remove="Resources\Images\espiaoemeio.jpg" />
+	  <None Remove="Resources\Images\esposadementirinha.jpg" />
+	  <None Remove="Resources\Images\fivenigths.jpg" />
+	  <None Remove="Resources\Images\furiosos9.jpg" />
+	  <None Remove="Resources\Images\minhamae.jpg" />
+	  <None Remove="Resources\Images\panico.jpg" />
+	  <None Remove="Resources\Images\planetamacaco.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -72,7 +92,7 @@
 	  <MauiXaml Update="Categorias\Comedia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\Drama.xaml">
+	  <MauiXaml Update="Categorias\Terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -81,16 +101,13 @@
 	  <None Update="Categorias\Aventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </None>
-	  <None Update="Filmes\NewPage1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </None>
 	  <None Update="Posters\NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </None>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Filmes\" />
+	  <Folder Include="Posters\" />
 	</ItemGroup>
 
 </Project>
