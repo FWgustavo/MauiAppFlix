@@ -6,4 +6,19 @@ public partial class Comedia : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnSorte_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnEsposa_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnMae_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

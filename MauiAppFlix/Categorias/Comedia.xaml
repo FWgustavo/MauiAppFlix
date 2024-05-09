@@ -4,9 +4,23 @@
              x:Class="MauiAppFlix.Categorias.Comedia"
              Title="Comedia">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300,300,300"
+                  ColumnDefinitions ="*,*"
+                  Padding ="5">
+                <ImageButton Aspect ="AspectFill" Grid.Column="0" Grid.Row ="0"
+                             Source="minhamae.jpg" x:Name="btnMae"
+                             Clicked="btnMae_Clicked"
+                             />
+                <ImageButton Aspect ="AspectFill" Grid.Column="1" Grid.Row="0"
+                             Source="esposadementirinha.jpg" x:Name="btnEsposa"
+                             Clicked="btnEsposa_Clicked"
+                             />
+                <ImageButton Aspect ="AspectFill" Grid.Column="2" Grid.Row="0"
+                             Source="atesorte.jpg" x:Name="btnSorte"
+                             Clicked="btnSorte_Clicked"
+                             />
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>
