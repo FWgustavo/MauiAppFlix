@@ -56,15 +56,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="Filmes\**" />
-	  <Compile Remove="Filmes\**" />
-	  <EmbeddedResource Remove="Filmes\**" />
-	  <MauiCss Remove="Filmes\**" />
-	  <MauiXaml Remove="Filmes\**" />
-	  <None Remove="Filmes\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <None Remove="Resources\Images\atesorte.jpg" />
 	  <None Remove="Resources\Images\coraline.jpg" />
 	  <None Remove="Resources\Images\espiaoemeio.jpg" />
@@ -93,6 +84,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\harry.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFlix.Filmes.harry"
+             Title="harry"
+             BackgroundColor="#2f2f30">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+
+            <WebView Grid.Column="0" Grid.Row="0"
+                     Source="https://www.youtube.com/watch?v=9fIObnIGMlI"/>
+        </Grid>
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Image Grid.Column="0" Grid.Row="0" x:Name="poster" HeightRequest="*"/>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
