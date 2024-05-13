@@ -4,26 +4,28 @@
              x:Class="MauiAppFlix.MainPage">
     <ContentPage.Content>
 
-        <Grid RowDefinitions="*, *, *, *, *, *"
-              ColumnDefinitions="*, *">
+        <Grid ColumnDefinitions="*, *"
+              RowSpacing="10" Margin="10"
+              VerticalOptions="FillAndExpand"
+              RowDefinitions="*,*,*,*,*">
+            <Button Grid.Row="0" Grid.Column="0" Text="Aventura" />
+            <Button Grid.Row="0" Grid.Column="1" Text="Comedia" />
 
-            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource Botao}" x:Name="aventura" Text="AVENTURA" Clicked="aventura_Clicked" />
-            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource Botao}" x:Name="comedia"  Text="COMÉDIA" Clicked="comedia_Clicked" />
+            <Button Grid.Row="1" Grid.Column="0" Text="Drama" />
+            <Button Grid.Row="1" Grid.Column="1" Text="Terror" />
 
-            <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource Botao}" x:Name="drama" Text="DRAMA" Clicked="drama_Clicked" />
-            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource Botao}" x:Name="terror" Text="TERROR" Clicked="terror_Clicked" />
+            <Button Grid.Row="2" Grid.Column="0" Text="Ficção Científica" />
+            <Button Grid.Row="2" Grid.Column="1" Text="Suspense" />
 
-            <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource Botao}" x:Name="ficcaoc" Text="FICCÃO CIENTÍFICA" Clicked="ficcaoc_Clicked" />
-            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource Botao}" x:Name="suspense" Text="SUSPENSE" Clicked="suspense_Clicked" />
+            <Button Grid.Row="3" Grid.Column="0" Text="Infantil" />
+            <Button Grid.Row="3" Grid.Column="1" Text="Animação" />
 
-            <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource Botao}" x:Name="infantil" Text="INFANTIL" Clicked="infantil_Clicked" />
-            <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource Botao}" x:Name="animacao" Text="ANIMAÇÃO" Clicked="animacao_Clicked" />
+            <Button Grid.Row="4" Grid.Column="0" Text="Documentário" />
+            <Button Grid.Row="4" Grid.Column="1" Text="Guerra" />
 
-            <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource Botao}" x:Name="documentario" Text="DOCUMENTÁRIO" Clicked="documentario_Clicked" />
-            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource Botao}" x:Name="guerra" Text="Guerra" Clicked="guerra_Clicked" />
+            <Button Grid.Row="5" Grid.Column="0" Text="Nacional" />
+            <Button Grid.Row="5" Grid.Column="1" Text="Romance" />
 
-            <Button Grid.Row="6" Grid.Column="0" Style="{StaticResource Botao}" x:Name="nacional" Text="NACIONAL" Clicked="nacional_Clicked" />
-            <Button Grid.Row="6" Grid.Column="1" Style="{StaticResource Botao}" x:Name="romance" Text="ROMANCE" Clicked="romance_Clicked" />
         </Grid>
 
     </ContentPage.Content>

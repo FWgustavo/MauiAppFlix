@@ -12,7 +12,7 @@
         </Grid>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
-            <Image Grid.Column="0" Grid.Row="0" x:Name="poster" HeightRequest="*"/>
+            <Image Grid.Column="0" Grid.Row="0" x:Name="poster" HeightRequest=""/>
         </ScrollView>
     </VerticalStackLayout>
 </ContentPage>
