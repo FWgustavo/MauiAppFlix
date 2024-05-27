@@ -16,7 +16,7 @@
                              Source="esposadementirinha.jpg" x:Name="btnEsposa"
                              Clicked="btnEsposa_Clicked"
                              />
-                <ImageButton Aspect ="AspectFill" Grid.Column="2" Grid.Row="0"
+                <ImageButton Aspect ="AspectFill" Grid.Column="0" Grid.Row="1"
                              Source="atesorte.jpg" x:Name="btnSorte"
                              Clicked="btnSorte_Clicked"
                              />

@@ -8,23 +8,11 @@
               RowSpacing="10" Margin="10"
               VerticalOptions="FillAndExpand"
               RowDefinitions="*,*,*,*,*">
-            <Button Grid.Row="0" Grid.Column="0" Text="Aventura" />
-            <Button Grid.Row="0" Grid.Column="1" Text="Comedia" />
-
-            <Button Grid.Row="1" Grid.Column="0" Text="Drama" />
-            <Button Grid.Row="1" Grid.Column="1" Text="Terror" />
-
-            <Button Grid.Row="2" Grid.Column="0" Text="Ficção Científica" />
-            <Button Grid.Row="2" Grid.Column="1" Text="Suspense" />
-
-            <Button Grid.Row="3" Grid.Column="0" Text="Infantil" />
-            <Button Grid.Row="3" Grid.Column="1" Text="Animação" />
-
-            <Button Grid.Row="4" Grid.Column="0" Text="Documentário" />
-            <Button Grid.Row="4" Grid.Column="1" Text="Guerra" />
-
-            <Button Grid.Row="5" Grid.Column="0" Text="Nacional" />
-            <Button Grid.Row="5" Grid.Column="1" Text="Romance" />
+            
+            <Button Grid.Row="0" Grid.Column="0" Text="Ação" Clicked="Button_Clicked"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Aventura" Clicked="Button_Clicked_1"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="Comedia" Clicked="Button_Clicked_2"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Terror" Clicked="Button_Clicked_3"/>
 
         </Grid>
 

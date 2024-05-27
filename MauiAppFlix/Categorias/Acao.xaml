@@ -14,7 +14,7 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
                              Source="planetamacaco.jpg" x:Name="btnMacaco"
                              Clicked="btnMacaco_Clicked"/>
-                <ImageButton Aspect="AspectFill" Grid.Column="2" Grid.Row="0"
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
                              Source="espiaoemeio.jpg" x:Name="btnEspiao"
                              Clicked="btnEspiao_Clicked"/>
             </Grid>

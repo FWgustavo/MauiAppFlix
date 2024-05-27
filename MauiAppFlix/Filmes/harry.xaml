@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFlix.Filmes.harry"
-             Title="harry"
-             BackgroundColor="#2f2f30">
-    <VerticalStackLayout>
-        <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+             x:Class="MauiAppFlix.Filmes.harry">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
-            <WebView Grid.Column="0" Grid.Row="0"
-                     Source="https://www.youtube.com/watch?v=9fIObnIGMlI"/>
-        </Grid>
-
+        <WebView Grid.Column="0" Grid.Row="0" 
+        Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
         <ScrollView Grid.Row="1" Grid.Column="0">
-            <Image Grid.Column="0" Grid.Row="0" x:Name="poster" HeightRequest=""/>
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0" 
+                       x:Name="poster" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" 
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento"
+                               Style="{StaticResource titulo}" />
+
+                    <Label Text="7 de março de 2019"
+                               Style="{StaticResource textoTitulo}" />
+
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
+                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+
+                    <Label Text="Sinopse" Style="{StaticResource titulo}" />
+
+                    <Label x:Name="sinopse" Text="textão sô"
+                               FontSize="Medium" Padding="5" />
+
+                </StackLayout>
+            </Grid>
         </ScrollView>
-    </VerticalStackLayout>
-</ContentPage>
+    </Grid>
+</ContentView>
