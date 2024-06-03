@@ -1,6 +1,6 @@
 namespace MauiAppFlix.Filmes;
 
-public partial class harry : ContentView
+public partial class harry : ContentPage
 {
 	public harry()
 	{

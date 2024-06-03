@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFlix.Filmes.harry">
+             x:Class="MauiAppFlix.Filmes.harry"
+             Title="harry">
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+    Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                       x:Name="poster" HeightRequest="300" />
+                   x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
-                             Grid.Column="1" Grid.Row="0">
+                         Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
-                               Style="{StaticResource titulo}" />
+                           Style="{StaticResource titulo}" />
 
                     <Label Text="23 de novembro de 2001"
-                               Style="{StaticResource textoTitulo}" />
+                           Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
@@ -27,11 +28,11 @@
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
                     <Label x:Name="sinopse" Text="Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos,
-                           Rony Weasley e Hermione Granger."
-                               FontSize="Medium" Padding="5" />
+                       Rony Weasley e Hermione Granger."
+                           FontSize="Medium" Padding="5" />
 
                 </StackLayout>
             </Grid>
         </ScrollView>
     </Grid>
-</ContentView>
+</ContentPage>
