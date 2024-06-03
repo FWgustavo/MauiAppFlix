@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/watch?v=-LWS2pH-pSs" />
+        Source="https://www.youtube.com/embed/h74AXqw4Opc?si=O4yCNn81e1PG8RY1" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,19 @@
                     <Label Text="Data de Lançamento"
                                Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="9 de março de 2023"
                                Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Tyler Gillett, Matt Bettinelli-Olpin" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="Sam, Tara, Chad e Mindy, os quatro sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para trás em busca de um novo começo em Nova York.
+                           Mas não demora muito para eles se tornarem alvo de um novo serial killer."
                                FontSize="Medium" Padding="5" />
 
                 </StackLayout>

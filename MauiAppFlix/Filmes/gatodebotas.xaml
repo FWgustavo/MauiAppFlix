@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+Source="https://www.youtube.com/embed/sLk94T-hS78?si=_6pPXF4X1bTkoSE4" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,19 @@ Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
                     <Label Text="Data de Lançamento"
                        Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text=" 5 de janeiro de 2023"
                        Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text=" Joel Crawford" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele já gastou oito de suas nove vidas.
+                           Ele então parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas."
                        FontSize="Medium" Padding="5" />
 
                 </StackLayout>

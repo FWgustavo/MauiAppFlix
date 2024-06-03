@@ -83,6 +83,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Filmes\harry.xaml.cs">
+	    <DependentUpon>harry.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Categorias\Acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

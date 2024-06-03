@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-    Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+    Source="https://www.youtube.com/embed/UZiOpdzutaU?si=Ys08JVggEpf46Fg2" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,19 @@
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="5 de outubro de 2012"
                            Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Roberto Santucci" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="Tino é um pai de família que tem sua rotina transformada ao ganhar na loteria. Em dez anos, o fanfarrão e sua mulher Jane gastam todo o dinheiro com uma vida de ostentação. Quando descobre que está falido, ele é obrigado a aceitar a ajuda de seu vizinho Amauri, um consultor financeiro nada divertido e extremamente econômico. Jane engravida do terceiro filho e Tino faz de tudo para esconder da esposa que estão na pior, 
+                           pois a recomendação médica é que a grávida evite fortes emoções."
                            FontSize="Medium" Padding="5" />
 
                 </StackLayout>

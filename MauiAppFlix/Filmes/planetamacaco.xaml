@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+Source="https://www.youtube.com/embed/QzgWDG4QviU?si=pBhanEfXeM4aqlkT" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,19 @@ Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
                     <Label Text="Data de Lançamento"
                        Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="3 de agosto de 2017"
                        Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Matt Reeves" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="César e seu grupo são forçados a entrar em uma guerra contra um exército de soldados liderados por um impiedoso coronel. Depois que vários macacos perdem suas vidas no conflito, César luta contra seus instintos e parte em busca de vingança.
+                           Dessa jornada, o futuro do planeta poderá estar em jogo."
                        FontSize="Medium" Padding="5" />
 
                 </StackLayout>

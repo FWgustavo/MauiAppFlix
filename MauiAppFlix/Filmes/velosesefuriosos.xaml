@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+Source="https://www.youtube.com/embed/oySHRt64xLk?si=qpzThEDY8GMWxraI" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,20 @@ Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
                     <Label Text="Data de Lançamento"
                        Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="24 de junho de 2021"
                        Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Justin Lin" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="Dominic Toretto e Letty vivem uma vida pacata ao lado do filho.
+                           Mas eles logo são ameaçados pelo passado de Dom: seu irmão desaparecido Jakob,
+                           que retorna e está trabalhando ao lado de Cipher. Cabe a Dom reunir a equipe novamente para enfrentá-los."
                        FontSize="Medium" Padding="5" />
 
                 </StackLayout>

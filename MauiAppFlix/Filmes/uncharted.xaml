@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
+Source="https://www.youtube.com/embed/R68xqaxgTSI?si=4pYfxBAU7OJpwHN7" />
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
@@ -16,18 +16,19 @@ Source="https://www.youtube.com/embed/9fIObnIGMlI?si=hPrjHeIRS0yB5hz0" />
                     <Label Text="Data de Lançamento"
                        Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="17 de fevereiro de 2022 "
                        Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
+                    <Label Text=" Ruben Fleischer" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="textão sô"
+                    <Label x:Name="sinopse" Text="Nathan Drake e seu parceiro canastrão Victor Sully Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso,
+                           eles também rastreiam pistas que podem levar ao irmão perdido de Nathan."
                        FontSize="Medium" Padding="5" />
 
                 </StackLayout>

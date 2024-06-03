@@ -3,5 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFlix.Filmes.esposadementirinha"
              Title="esposadementirinha">
-   
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0" 
+                 Source="https://www.youtube.com/embed/QmL1mdzS544?si=CxwlW0VmI_2q4xHK" />
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0" 
+               x:Name="poster" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" 
+                     Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento"
+                       Style="{StaticResource titulo}" />
+
+                    <Label Text="4 de março de 2011"
+                       Style="{StaticResource textoTitulo}" />
+
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
+                    <Label Text=" Dennis Dugan" Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+
+                    <Label Text="Sinopse" Style="{StaticResource titulo}" />
+
+                    <Label x:Name="sinopse" Text="nfeliz em sua tentativa de casamento, Danny passa a vivenciar relacionamentos sem compromisso para driblar a carência. Assim, ele toca sua vida como cirurgião plástico bem-sucedido, tendo sua melhor amiga Katherine, mãe solteira de um casal, como fiel escudeira. Quando conhece a jovem Palmer e a paixão toma conta de ambos, ele inventa, para tentar conquistá-la, que é marido de Katherine,
+                           pai das crianças e que vai se separar."
+                       FontSize="Medium" Padding="5" />
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>
